@@ -4,7 +4,13 @@
 }
 
 body {
+    width: 100%;
     height: 100vh;
+    background: linear-gradient(
+        rgba(111, 2, 2, 0.901),
+        rgba(81, 23, 3, 0.807)),
+        url('./bg.jpg') no-repeat center;
+    background-size: cover; 
     display: flex;
     justify-content: center;
     align-items: center;
